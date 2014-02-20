@@ -8,8 +8,11 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap, quiz]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained	# {standalone, draft, selfcontained}
-ext_widgets	: {rCharts: [libraries/ploycharts]}
+ext_widgets	: {rCharts: [libraries/polycharts]}
 ---
+
+
+
 
 ## Overview
 
@@ -227,10 +230,15 @@ Teacher
 
 
 
-
-```
-Error: object 'opts_current' not found
-```
+<iframe src='
+assets/fig/inter-plot.html
+' scrolling='no' seamless class='rChart 
+polycharts
+ '
+id=iframe-
+chart54b23fec6c9d
+></iframe>
+<style>iframe.rChart{ width: 100%; height: 400px;}</style>
 
 
 ---
