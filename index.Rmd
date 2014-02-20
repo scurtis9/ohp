@@ -8,7 +8,7 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [bootstrap, quiz]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained	# {standalone, draft, selfcontained}
-ext_widgets	: {rCharts: [libraries/nvd3]}
+ext_widgets	: {rCharts: [libraries/ploycharts]}
 ---
 
 ## Overview
